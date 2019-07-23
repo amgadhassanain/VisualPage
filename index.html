@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Documentation For VIS</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="../VIS/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./css/styles/style.css">
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark" id="navbarstyle">
+    <a class="navbar-brand text-white" href="#">Visual Studio Code</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Docs <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Updates</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Api</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Extensions</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">FAQ</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-success my-2 my-sm-0" type="submit">Download</button>
+      </form>
+    </div>
+  </nav>
+
+
+
+  <div class="container">
+    <div class="row">
+      <div class=" col-lg-2 left_menu">
+        <div class="d-none d-lg-block">
+          <ul>
+            <li>Overview</li>
+            <li>Setup</li>
+            <li>Get Started</li>
+            <li>User Guide</li>
+            <li>Node.js</li>
+            <li>TypeScript</li>
+            <li>Python</li>
+            <li>Java</li>
+          </ul>
+        </div>
+        <nav id="small-nav" aria-label="Topics" class="d-lg-none d-md-block">
+          <h4>Topics</h4>
+          <select id="small-nav-dropdown">
+            <option value="/docs">Overview</option>
+
+            <optgroup label="Setup">
+
+              <option value="/docs/setup/setup-overview">Overview</option>
+
+              <option value="/docs/setup/linux">Linux</option>
+
+              <option value="/docs/setup/mac">macOS</option>
+
+              <option value="/docs/setup/windows">Windows</option>
+
+              <option value="/docs/setup/network">Network</option>
+
+              <option value="/docs/setup/additional-components">Additional Components</option>
+
+            </optgroup>
+          </select>
+        </nav>
+
+      </div>
+
+      <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
+        <div>
+          <h2>Getting Started</h2>
+          <p>Visual Studio Code is a lightweight but powerful source code editor which runs on your desktop and is
+            available for Windows, macOS and Linux. It comes with built-in support for JavaScript, TypeScript and
+            Node.js
+            and has a rich ecosystem of extensions for other languages (such as C++, C#, Java, Python, PHP, Go) and
+            runtimes (such as .NET and Unity). Begin your journey with VS Code with these <a
+              id="docs-index-intro-videos" href="/docs/introvideos/overview">introductory videos</a>.</p>
+        </div>
+        <h2>Visual Studio Code in Action</h2>
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1" class=""></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2" class=""></li>
+
+          </ol>
+
+          <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+              <img src="./images/git_b.png" alt="First Slide" class="img-responsive" />
+              <div class="carousel-caption">
+                <h4>Code Navigation and Refactoring</h4>
+                <p>Browse your source code quickly using peek and navigate to definition.</p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img src="./images/intellisense_b.png" alt="Second Slide" class="img-responsive" />
+
+              <div class="carousel-caption">
+                <h4>Code Navigation and Refactoring</h4>
+                <p>Browse your source code quickly using peek and navigate to definition.</p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img src="./images/multi-cursor-edit.png" alt="Third Slide" class="img-responsive" />
+              <div class="carousel-caption">
+                <h4>Code Navigation and Refactoring</h4>
+                <p>Browse your source code quickly using peek and navigate to definition.</p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+        <br>
+        <h2>Top Extensions</h2>
+        <p>Enable additional languages, themes, debuggers, commands, and more. VS Code's growing community shares
+          their secret sauce to improve your workflow</p>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 col-sm-6 col-xs-3">
+              <div class="card text-center">
+                <img class="img-responsive" src="./images/Microsoft.VisualStudio.Services.Icons.png"
+                  alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">python</h5>
+                  <p class="card-text">Linting, Debugging (multi-threaded, remote), Inte...</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-3">
+              <div class="card text-center">
+                <img class="img-responsive" src="./images/Microsoft.VisualStudio.Services.Icons.png"
+                  alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">python</h5>
+                  <p class="card-text">Linting, Debugging (multi-threaded, remote), Inte...</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-3">
+              <div class="card text-center">
+                <img class="img-responsive" src="./images/Microsoft.VisualStudio.Services.Icons.png"
+                  alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">python</h5>
+                  <p class="card-text">Linting, Debugging (multi-threaded, remote), Inte...</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-3">
+              <div class="card text-center">
+                <img class="img-responsive" src="./images/Microsoft.VisualStudio.Services.Icons.png"
+                  alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">python</h5>
+                  <p class="card-text">Linting, Debugging (multi-threaded, remote), Inte...</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-2 right_menu d-none d-lg-block">
+        <ul class="menue_nav">
+          <h6>Getting Started</h6>
+          <li><a href="#">VS Code in Action</a></li>
+          <li><a href="#">Top Extensions</a></li>
+          <li><a href="#">First Steps</a></li>
+          <li><a href="#">Keyboard Shortcuts</a></li>
+          <li><a href="#">Downloads</a></li>
+        </ul> <br>
+        <ul class="menue_links">
+          <li>
+            <i class="fa fa-twitter"></i>
+            <a href="#">twitt this link</a>
+          </li>
+          <li>
+            <i class="fa fa-rss"></i>
+            <a href="#">subscribe</a>
+          </li>
+          <li>
+            <i class="fa fa-twitter"></i>
+            <a href="#">ask feature</a>
+          </li>
+          <li>
+            <i class="fa fa-comments"></i>
+            <a href="#">report Issue</a>
+          </li>
+          <li>
+            <i class="fa fa-youtube"></i>
+            <a href="#">watch Vedio</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <footer class="text-white mt-2 h-100 w-100">
+    <div class="container">
+      <div class="row">
+        <div class="left col-md-7">
+          <ul class="links d-inline-flex">
+            <li>
+              <span class="message">Hello from Seattle.</span>
+            </li>
+            <li>
+              <a href="#" role="button">Follow @code</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-5">
+          <ul class="links">
+            <li><a id="footer-support-link" href="#">Support</a></li>
+            <li><a id="footer-privacy-link" href="#" target="_blank">Privacy</a></li>
+            <li><a id="footer-terms-link" href="#" target="_blank">Terms of Use</a></li>
+            <li><a id="footer-license-link" href="#">License</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <!-- JS files: jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="./js/jquery-3.4.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="./js/bootstrap.min.js"></script>
+</body>
+
+</html>

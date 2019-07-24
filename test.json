@@ -1,0 +1,34 @@
+{
+    "teachers" : [
+    {
+    "firstName":"amgad",
+    "lastName":"hassanain",
+    "emailAddress":"amgadhassanain@gmail.com",
+    "students": [
+        {"name":"ahmed","address":"cairo","specialization":"IT"},
+        {"name":"mohamed","address":"cairo","specialization":"AI"},
+        {"name":"akram","address":"cairo","specialization":"ML"}
+    ]
+    },
+    {
+        "firstName":"amgad",
+        "lastName":"hassanain",
+        "emailAddress":"amgadhassanain@gmail.com",
+        "students": [
+            {"name":"ahmed","address":"cairo","specialization":"IT"},
+            {"name":"islam","address":"cairo","specialization":"BA"},
+            {"name":"omar","address":"cairo","specialization":"FA"}
+        ]
+        },
+        {
+            "firstName":"amgad",
+            "lastName":"hassanain",
+            "emailAddress":"amgadhassanain@gmail.com",
+            "students": [
+                {"name":"mahmoud","address":"cairo","specialization":"IT"},
+                {"name":"ahmed","address":"cairo","specialization":"IT"},
+                {"name":"yehia","address":"cairo","specialization":"IT"}
+            ]
+            }
+    ]
+    }

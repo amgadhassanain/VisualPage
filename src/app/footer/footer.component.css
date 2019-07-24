@@ -1,0 +1,16 @@
+footer {
+    background-color: #333;
+
+}
+
+footer ul li {
+    margin: 2vh;
+    display: inline-flex;
+}
+footer ul li a {
+    text-decoration: none !important;
+    color: white;
+}
+footer ul li a:hover{
+    color: #b6a6f1;
+}

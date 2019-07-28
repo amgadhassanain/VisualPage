@@ -1,0 +1,18 @@
+
+body {
+    background-image: url('../images/img-body');
+}
+
+.home {
+    width: 30px;
+    height: 30px;
+}
+.home i {
+    margin-top: 6px;
+    margin-left: 5px;
+}
+.trello {
+    text-decoration: none;
+    margin-left: auto;
+    margin-top: 5px;
+}

@@ -1,0 +1,48 @@
+
+.game
+{
+    background:#efefef;
+    border:solid 5pt #333;
+}
+
+.game .game-title
+{
+    background:#222;
+    color:#fff;
+    padding: 5pt;
+    text-align:center;
+}
+
+.game td
+{
+    width:100px;
+    height:100px;
+    border: solid 5px black;
+    text-align:center;
+    font-size:40pt;
+    border-radius:10px;
+    box-sizing:border-box;
+}
+
+.game td:hover
+{
+    background-color: #fff;
+    cursor:pointer;
+}
+
+.game .player
+{
+    float:left;
+    text-align:center;
+    width: 25%;
+}
+
+.game .player .selected
+{
+    border-bottom:solid 4px #00fa9a;
+}
+
+.clear
+{
+    clear:both;
+}
